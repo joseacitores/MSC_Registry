@@ -3,6 +3,7 @@
 Created on Wed Nov 16 10:47:43 2022
 
 @author: acito
+Calculates the mean and standard deviation of an image dataset
 """
 
 # python code to calculate mean and std 
@@ -12,7 +13,7 @@ import torch
 from torch.utils.data import DataLoader
 
 
-path_dir = r'C:\Users\acito\projects\FxHip'
+path_dir = 
 
 transform = transforms.Compose([transforms.Resize((224,224)), transforms.ToTensor()])
 
