@@ -8,7 +8,6 @@ The objective is to implement a neural network based on previous models like the
 
 Model comp and its relatives are files where each cell ca be run in order to follow a pipeline of training a model and storing the model and results in different files. path_dir variable should contain the main folder of the project with the following data structure:
 
-```
 .
 ├── images
 ├── models
@@ -17,9 +16,6 @@ Model comp and its relatives are files where each cell ca be run in order to fol
 ├── test
 ├── train
 └── validation
-
-´´´
-
 
 
 mean_std_dataset presents a function to calculate the mean and the standard deviation of an image dataset in order to be able to normalize it. 
