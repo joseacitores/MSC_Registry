@@ -15,7 +15,7 @@ Model comp and its relatives are files where each cell ca be run in order to fol
 ├── probs\
 ├── test\
 ├── train\
-└── validation\
+└── validation
 
 
 mean_std_dataset presents a function to calculate the mean and the standard deviation of an image dataset in order to be able to normalize it. 
